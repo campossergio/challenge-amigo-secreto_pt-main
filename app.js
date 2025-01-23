@@ -57,6 +57,7 @@ document.querySelector('button').addEventListener('click', sortearAmigo());
 function reiniciarSorteio() {
     participantes = [];
     document.getElementById('listaAmigos').innerHTML = '';
+    document.getElementById('resultado').innerHTML = '';
 }
 
 
